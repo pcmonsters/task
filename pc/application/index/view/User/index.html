@@ -1,0 +1,108 @@
+<extend name="Index/index"/>
+<block name="csslink">
+  <link rel="stylesheet" href="__PUBLIC__/css/jquery.confirm.css">
+</block>
+
+<block name="main">
+  <table class="table table-bordered table-hover" >
+			<tr>
+				<th>ID</th>
+				<th>用户名</th>
+				<th>email</th>
+				<th>上次登录时间</th>
+				<th>上次登录ip</th>
+        <th>状态</th>
+        <th>所属用户组</th>
+        <th>操作</th>
+			</tr>
+			<volist name="user" id="vo">
+				<tr>
+					<td><{$vo.user_id}></td>
+					<td><{$vo.username}></td>
+					<td><{$vo.email}></td> 
+					<td><{$vo.logintime|date='Y-m-d H:i:s',###}></td>
+					<td><{$vo.loginip}></td>
+					<td><if condition="$vo.status eq 1">启用<else />禁用</if></td>
+          <td>
+          	<volist name="vo['Role']" id="vo1">
+          	<div class="item" style="display:inline-block" >
+	          <{$vo1.name}>
+	           <button type="button" class="btn btn-default btn-xs delete" aria-label="Left Align" data-original-title="删除该角色" data-id="<{$vo.user_id}>" data-role="<{$vo1.id}>">
+			  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+			</button> 
+						<!-- <a title="删除该角色" href="<{:U('Role/deleteRole',array('user_id'=>$vo['user_id'],'role_id'=>$vo1['id']))}>">
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </a> -->
+						</div>
+          	</volist>
+          </td>
+					<td>
+						<a href="<{:U('User/del',array('id'=>$vo['user_id']))}>">删除</a>
+						<a href="<{:U('User/edit',array('id'=>$vo['user_id']))}>">修改</a>
+						<a href="<{:U('Role/access',array('rid'=>$vo['Role'][0]['id']))}>">分配权限</a>
+						<a href="<{:U('Role/role',array('id'=>$vo['user_id']))}>">选择角色</a>
+					</td>
+				</tr>
+			</volist>
+		</table>
+		</div>
+		</div><!--cheader -->
+</block>
+<block name="adminjs">
+<script src="__PUBLIC__/js/jquery.confirm.js"></script> 
+<!-- <script src="__PUBLIC__/js/jquery-confirmsuccess.js"></script>  -->
+<script>
+
+	$(function(){
+          $('.item .delete').click(function(){
+          var elem = $(this).closest('.item');
+          var user_id = $(this).attr('data-id');
+          var role_id = $(this).attr('data-role');
+          var user_role = {"user_id":user_id,"role_id":role_id};
+          var that = $(this);
+          $.confirm({
+            'title'   : 'Delete Confirmation',
+            'message' : '确认删除？<br />',
+            'buttons' : {
+              'Yes' : {
+              'class' : 'blue',
+              'action': function(){
+                $.ajax({
+                  type: 'POST',
+                  url: "<{:U('Role/ajaxDelRole')}>",
+                  data:user_role,
+                  dataType: 'json',
+                  success:function(data){
+                    if(data === ''){
+                      alert('编辑失败');
+                    }
+                    if(data){
+                      if(data.info){
+                        alert(data.info);
+                        return false;
+                      }
+                      $("<b class='text-primary'>编辑成功!!</b>").appendTo(that.parent());
+                      $(that.siblings('b')).fadeOut(3000);
+                    }
+                  },
+                  error:function(data1){
+                    console.log(data1);
+                    alert('Error!'); 
+                  }
+                });
+                elem.slideUp();
+              }
+            },
+              'No'  : {
+                'class' : 'gray',
+                'action': function(){}  // Nothing to do in this case. You can as well omit the action property.
+                }
+              }
+          });
+
+});
+  
+	});
+</script>
+</block>
+

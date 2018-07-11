@@ -1,0 +1,87 @@
+<extend name="Index/index"/>
+<block name="main">
+	<center>
+	
+		<table class="table table-bordered table-hover ">
+			<tr>
+				<th>权限ID</th>
+				<th>权限结构</th>
+				<th>名称</th>
+				<th>排序</th> 
+				<th>类型</th>
+				<th>操作</th>
+			</tr>
+			<?php foreach($list as $vo): ?>
+				<tr>
+					<td><{$vo.id}></td>
+					<td>
+						<p style="text-indent:<{$vo['level']*20}>px;">
+							|--<{$vo.title}>
+						</p>
+
+					</td>
+					<td><{$vo.name}></td>
+					<td><{$vo.sort}></td>
+					<td>
+						<if condition="$vo['level'] eq 1"><strong>项目</strong>
+						<elseif condition="$vo['level'] eq 2"/><strong style="color:orange">模块<strong>
+						<elseif condition="$vo['level'] eq 3"/><strong style="color:#abcdef;">操作</strong>
+						</if>
+					</td>
+					<td>
+						<a href="<{:U('Node/deleteNode',array('id'=>$vo['id']))}>">删除</a>
+						<a href="<{:U('Node/edit',array('id'=>$vo['id']))}>">修改</a>
+					</td>
+					
+				</tr>
+				<?php foreach($vo['_'] as $v): ?>
+					<tr>
+						<td><{$v.id}></td>
+						<td>
+							<p style="text-indent:<{$v['level']*20}>px;">
+								|--<{$v.title}>
+							</p>
+
+						</td>
+						<td><{$v.name}></td>
+						<td><{$v.sort}></td>
+						<td>
+							<if condition="$v['level'] eq 1"><strong>项目</strong>
+							<elseif condition="$v['level'] eq 2"/><strong style="color:orange">模块<strong>
+							<elseif condition="$v['level'] eq 3"/><strong style="color:#abcdef;">操作</strong>
+							</if>
+						</td>
+						<td>
+							<a href="<{:U('Node/deleteNode',array('id'=>$v['id']))}>">删除</a>
+							<a href="<{:U('Node/edit',array('id'=>$v['id']))}>">修改</a>
+						</td>
+					</tr>
+					<?php foreach($v['_'] as $value):?>
+						<tr>
+							<td><{$value.id}></td>
+							<td>
+								<p style="text-indent:<{$value['level']*20}>px;">
+									|--<{$value.title}>
+								</p>
+
+							</td>
+							<td><{$value.name}></td>
+							<td><{$value.sort}></td>
+							<td>
+								<if condition="$value['level'] eq 1"><strong>项目</strong>
+								<elseif condition="$value['level'] eq 2"/><strong style="color:orange">模块<strong>
+								<elseif condition="$value['level'] eq 3"/><strong style="color:#abcdef;">操作</strong>
+								</if>
+							</td>
+							<td>
+								<a href="<{:U('Node/deleteNode',array('id'=>$value['id']))}>">删除</a>
+								<a href="<{:U('Node/edit',array('id'=>$value['id']))}>">修改</a>
+							</td>
+						</tr>
+					<?php endforeach;?>
+				<?php endforeach;?>
+			<?php endforeach; ?>
+			
+		</table>
+	</center>
+</block>

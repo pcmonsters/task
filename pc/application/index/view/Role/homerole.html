@@ -1,0 +1,33 @@
+<extend name="Index/Index"/>
+<block name="main"> 
+<div class="container">
+    <div class="col-md-12">
+      <h3>你正在为 <small class="text-primary"><{$user.username}></small> 分配角色</h3>
+      <h3>你现在的角色为:<volist name="role" id="value"><{$value.name}>，</volist></h3>
+        
+      <form action="<{:U('Role/setHomeRole')}>" method='post' class="form-horizontal">
+        <div class="form-group">
+          <label for="" class="col-sm-2 control-label">设置用户组：</label>
+          <div class="col-sm-4">
+            <select class="form-control" name="role_id">
+            <volist name="roleList" id="vo">
+              <if condition="$vo.type eq 0"><option value="<{$vo.id}>" style="color:#ff6666;">后台角色--<{$vo.name}></option>
+              <else /><option value="<{$vo.id}>" style="color:#99cc33;">前台角色----<{$vo.name}></option></if>
+            </volist>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-4">
+              <button type="submit" class="btn btn-default">添 加</button>
+            </div>
+        </div>
+        <input type="hidden" name="user_id" value="<{$user.user_id}>">
+    
+      </form>
+    </div>
+  </div>
+  </div><!--END #content -->
+   
+  
+</block>

@@ -1,0 +1,181 @@
+<extend name="Index/index"/>
+<block name="csslink">
+  <link rel="stylesheet" href="__PUBLIC__/css/checkbox.css">
+  <style>
+    .btn-isSelected{
+      display:block;
+    }
+    .table-disappear{
+      display:none;
+    }
+  </style>
+</block> 
+<block name="main">
+  <h5 style="margin-left:20px;">默认显示的是后台角色列表</h5>
+  <button class="btn btn-default" type="submit" id="adminRole" data-type="0">查看后台角色</button>
+  <button class="btn btn-default" type="submit" id="homeRole" data-type="1">查看前台角色</button>
+  <table class="table" style="border:1px solid #ccc;" id="morenAdmin"><!-- 默认显示后台角色 -->
+			<tr>
+				<th>ID</th>
+				<th>角色名</th>
+				<th>说明</th>
+				<th>状态</th>
+				<th>操作</th>
+			</tr>
+			<volist name="list" id="vo">
+				<tr  class="roletd">
+					<td><{$vo.id}></td>
+					<td style="width:400px;"class="setRole"><input type="text"  data="<{$vo.id}>" value="<{$vo.name}>"></td>
+					<td><{$vo.remark}></td>
+					<td>
+          <!-- <if condition="$vo.status eq 1">启用<else />禁用</if> -->
+            <div class="slideThree">  
+              <input type="checkbox" value="<{$vo.status}>" id="<{$vo.id}>" name="status" <if condition="$vo.status eq 1">checked="checked"<else /></if>/>
+              <label for="<{$vo.id}>"></label>
+            </div>
+          </td>
+					<td>
+						<a href="<{:U('Role/del',array('id'=>$vo['id']))}>">删除</a>
+						<a href="<{:U('Role/edit',array('id'=>$vo['id']))}>">修改</a>
+						<a href="<{:U('Role/access',array('rid'=>$vo['id']))}>">分配权限</a>
+					</td>
+				</tr>
+			</volist>
+		</table>
+    <table class="table table-disappear" style="border:1px solid #ccc;" id="table_homeRole"><!-- 切换成前台角色 -->
+      <tr>
+        <th>ID</th>
+        <th>角色名</th>
+        <th>说明</th>
+        <th>状态</th>
+        <th>操作</th>
+      </tr>
+      <volist name="homeList" id="vo">
+        <tr  class="roletd">
+          <td><{$vo.id}></td>
+          <td style="width:400px;"class="setRole"><input type="text"  data="<{$vo.id}>" value="<{$vo.name}>"></td>
+          <td><{$vo.remark}></td>
+          <td>
+          <!-- <if condition="$vo.status eq 1">启用<else />禁用</if> -->
+            <div class="slideThree">  
+              <input type="checkbox" value="<{$vo.status}>" id="<{$vo.id}>" name="status" <if condition="$vo.status eq 1">checked="checked"<else /></if>/>
+              <label for="<{$vo.id}>"></label>
+            </div>
+          </td>
+          <td>
+            <a href="<{:U('Role/del',array('id'=>$vo['id']))}>">删除</a>
+            <a href="<{:U('Role/edit',array('id'=>$vo['id']))}>">修改</a>
+            <a href="<{:U('Role/access',array('rid'=>$vo['id']))}>">分配权限</a>
+          </td>
+        </tr>
+      </volist>
+    </table>
+  </div><!--END #content -->
+</block>
+<block name="adminjs">
+<script src="__PUBLIC__/js/jquery.min.js"></script> 
+<script>
+	$(function(){
+		// console.log($('#roletd input'));
+    //编辑角色姓名
+ 		$('.roletd input').blur(function(){
+ 			var id = $(this).attr('data');
+      var newName = $(this).val();
+      var role_name = {"id":id,"newName":newName};
+      var that = $(this);
+ 			$.ajax({
+  		  type: 'POST',
+  		  url: "<{:U('Role/saveRoleName')}>",
+        data:role_name,
+  		  dataType: 'json',
+        success:function(data){
+          if(data === ''){
+            alert('编辑失败');
+          }
+          if(data){
+            if(data.info){
+              alert(data.info);
+              return false;
+            }
+            $(that).attr('data',data);
+            $("<b class='text-primary'>编辑成功!!</b>").appendTo(that.parent());
+            $(that.siblings('b')).fadeOut(3000);
+          }
+        },
+        error:function(data1){
+          console.log(data1);
+          alert('Error!'); 
+        }
+			});
+ 		});
+    //status更换
+    $('.slideThree input').click(function(){
+      var id = $(this).attr('id');
+      var status = $(this).attr('value');
+      var newStatus = $(this).prop('checked');
+      var role_status = {"id":id,"status":status,"newStatus":newStatus};
+      // console.log(role_status);
+      var that = $(this);
+      $.ajax({
+        type: 'POST',
+        url: "<{:U('Role/saveRoleStatus')}>",
+        data:role_status,
+        dataType: 'json',
+        success:function(data){
+          if(data){
+            if(data.info){
+              alert(data.info);
+              return false;
+            }
+            $(that).attr('status',data);
+            // $("<b class='text-primary'>编辑成功!!</b>").appendTo(that.parent());
+            // $(that.siblings('b')).fadeOut(3000);
+          }
+          console.log(data);
+        },
+        error:function(data1){
+          console.log(data1);
+          alert('Error!'); 
+        }
+      });
+    });
+    //查看前台
+    $('#homeRole').click(function(){
+      /*var type = $(this).attr('data-type');
+      $.ajax({
+        type: 'POST',
+        url: "<{:U('Role/findHomeRole')}>",
+        data:{"type":type},
+        dataType: 'json',
+        success:function(data){
+          if(data){
+            if(data.info){
+              alert(data.info);
+              return false;
+            }
+            //把之前的表格消失掉
+            var homeList = data;
+            $('#morenAdmin').addClass('table-disappear');
+            $('#table_homeRole').removeClass('table-disappear');
+
+          }
+          console.log(data);
+        },
+        error:function(data1){
+          console.log(data1);
+          alert('Error!'); 
+        }
+      });*/
+      //切换
+      $('#morenAdmin').addClass('table-disappear');
+      $('#table_homeRole').removeClass('table-disappear');
+    });
+    //查看后台
+    $('#adminRole').click(function(){
+      //切换
+      $('#table_homeRole').addClass('table-disappear');
+      $('#morenAdmin').removeClass('table-disappear');
+    });
+	});	
+</script>
+</block>
