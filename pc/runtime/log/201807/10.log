@@ -1,0 +1,1058 @@
+[ 2018-07-10T01:37:28+08:00 ] 172.16.197.238 177.138.196.37 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.015382s][吞吐率：65.01req/s] [内存消耗：1,298.33kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T02:11:01+08:00 ] 172.16.197.238 179.83.82.119 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.013180s][吞吐率：75.87req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T02:50:55+08:00 ] 172.16.197.238 178.94.14.9 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012959s][吞吐率：77.17req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T03:55:09+08:00 ] 172.16.197.238 217.65.118.72 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012445s][吞吐率：80.35req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T04:55:03+08:00 ] 172.16.197.238 86.109.46.135 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011254s][吞吐率：88.86req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T05:28:12+08:00 ] 172.16.197.238 201.140.234.181 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011388s][吞吐率：87.81req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T05:37:38+08:00 ] 172.16.197.238 177.68.192.99 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011381s][吞吐率：87.86req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T06:03:46+08:00 ] 172.16.197.238 103.252.12.68 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012605s][吞吐率：79.33req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T06:05:16+08:00 ] 172.16.197.238 78.188.71.137 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011974s][吞吐率：83.51req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T06:05:51+08:00 ] 172.16.197.238 139.162.111.98 GET /
+[ log ] 47.98.122.163/ [运行时间：0.011597s][吞吐率：86.23req/s] [内存消耗：1,298.27kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'host' => '47.98.122.163',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T06:26:43+08:00 ] 172.16.197.238 139.219.98.156 GET /1qiWaz2wRsx3eXdc4rDfv5tgb6yhn7Uujm8Lik999
+[ log ] 139.219.106.96:11000/1qiWaz2wRsx3eXdc4rDfv5tgb6yhn7Uujm8Lik999 [运行时间：0.008218s][吞吐率：121.68req/s] [内存消耗：937.38kb] [文件加载：27]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '1qiWaz2wRsx3eXdc4rDfv5tgb6yhn7Uujm8Lik999',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'bigsec-ipscan',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'proxy-connection' => 'keep-alive',
+  'host' => '139.219.106.96:11000',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T07:00:14+08:00 ] 172.16.197.238 191.112.5.233 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012009s][吞吐率：83.27req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T07:25:52+08:00 ] 172.16.197.238 101.255.74.94 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011941s][吞吐率：83.75req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T07:50:36+08:00 ] 172.16.197.238 179.98.128.142 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012682s][吞吐率：78.85req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T07:59:17+08:00 ] 172.16.197.238 179.225.201.245 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011352s][吞吐率：88.09req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T08:32:35+08:00 ] 172.16.197.238 74.82.47.5 GET /
+[ log ] 47.98.122.163/ [运行时间：0.012286s][吞吐率：81.39req/s] [内存消耗：1,297.47kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.98.122.163',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T10:36:41+08:00 ] 172.16.197.238 62.69.252.239 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011949s][吞吐率：83.69req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T11:17:33+08:00 ] 172.16.197.238 190.94.136.238 GET /
+[ log ] 47.98.122.163/ [运行时间：0.011118s][吞吐率：89.94req/s] [内存消耗：1,298.46kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.98.122.163',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'keep-alive' => '300',
+  'connection' => 'Keep-Alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T11:36:41+08:00 ] 172.16.197.238 116.231.15.172 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.013008s][吞吐率：76.88req/s] [内存消耗：1,301.05kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T11:36:42+08:00 ] 172.16.197.238 116.231.15.172 GET /index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531193802285
+[ log ] 47.98.122.163:8080/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531193802285 [运行时间：0.012953s][吞吐率：77.20req/s] [内存消耗：1,327.94kb] [文件加载：36]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://47.98.122.163:8080/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531193802285',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->getSchedule[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T11:43:56+08:00 ] 172.16.197.238 185.2.209.111 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012275s][吞吐率：81.47req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T12:12:43+08:00 ] 172.16.197.238 106.120.160.114 GET /
+[ log ] 47.98.122.163/ [运行时间：0.011161s][吞吐率：89.60req/s] [内存消耗：1,299.16kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'host' => '47.98.122.163',
+  'referer' => 'http://47.98.122.163:8080/',
+  'accept-encoding' => 'identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T12:13:17+08:00 ] 172.16.197.238 101.199.121.77 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012691s][吞吐率：78.80req/s] [内存消耗：1,299.26kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.119 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T12:13:21+08:00 ] 172.16.197.238 101.199.121.77 GET /index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531195999413
+[ log ] 47.98.122.163:8080/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531195999413 [运行时间：0.013028s][吞吐率：76.76req/s] [内存消耗：1,327.59kb] [文件加载：36]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://47.98.122.163:8080/',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.119 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531195999413',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->getSchedule[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T12:27:56+08:00 ] 172.16.197.238 101.199.108.119 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012706s][吞吐率：78.70req/s] [内存消耗：1,300.94kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T12:27:57+08:00 ] 172.16.197.238 101.199.108.119 GET /index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531196877039
+[ log ] 47.98.122.163:8080/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531196877039 [运行时间：0.011843s][吞吐率：84.44req/s] [内存消耗：1,329.34kb] [文件加载：36]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://47.98.122.163:8080/',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531196877039',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->getSchedule[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T14:28:19+08:00 ] 172.16.197.238 116.231.15.172 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011360s][吞吐率：88.03req/s] [内存消耗：1,301.02kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T14:28:22+08:00 ] 172.16.197.238 116.231.15.172 GET /index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531204103144
+[ log ] 47.98.122.163:8080/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531204103144 [运行时间：0.012689s][吞吐率：78.81req/s] [内存消耗：1,327.94kb] [文件加载：36]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://47.98.122.163:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531204103144',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->getSchedule[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T15:46:19+08:00 ] 172.16.197.238 185.215.234.159 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012316s][吞吐率：81.20req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T15:47:24+08:00 ] 172.16.197.238 47.97.204.168 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012310s][吞吐率：81.23req/s] [内存消耗：1,298.54kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '47.98.122.163:8080',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T16:35:38+08:00 ] 172.16.197.238 103.91.94.55 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.014471s][吞吐率：69.10req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T20:57:45+08:00 ] 172.16.197.238 198.23.206.98 POST /GponForm/diag_Form?script/
+[ log ] 127.0.0.1:8080/GponForm/diag_Form?script/ [运行时间：0.009633s][吞吐率：103.81req/s] [内存消耗：937.33kb] [文件加载：27]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'GponForm',
+    1 => 'diag_Form',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '129',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Hello, World',
+  'host' => '127.0.0.1:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'script/' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T22:12:14+08:00 ] 172.16.197.238 45.115.176.17 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012449s][吞吐率：80.33req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T23:14:14+08:00 ] 172.16.197.238 138.219.108.19 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.012545s][吞吐率：79.71req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T23:37:43+08:00 ] 172.16.197.238 182.88.131.169 GET /index.html
+[ log ] help.jd.com/index.html [运行时间：0.012592s][吞吐率：79.42req/s] [内存消耗：1,298.91kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'host' => 'help.jd.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-10T23:53:16+08:00 ] 172.16.197.238 109.224.62.98 GET /
+[ log ] 47.98.122.163:8080/ [运行时间：0.011315s][吞吐率：88.38req/s] [内存消耗：1,298.34kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/pc/pc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '47.98.122.163:8080',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Index->index[ /home/wwwroot/pc/pc/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/pc/pc/public/../application/index/view/index/index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

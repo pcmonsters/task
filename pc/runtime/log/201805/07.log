@@ -1,0 +1,920 @@
+[ 2018-05-07T10:21:14+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.114508s][吞吐率：8.73req/s] [内存消耗：1,701.81kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:21:18+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525659681726
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525659681726 [运行时间：0.086166s][吞吐率：11.61req/s] [内存消耗：1,661.59kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525659681726',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:22:47+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525659681727
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525659681727 [运行时间：0.070438s][吞吐率：14.20req/s] [内存消耗：1,662.23kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-05-27',
+  'end' => '2018-07-08',
+  '_' => '1525659681727',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:22:52+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1525659681728
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1525659681728 [运行时间：0.063816s][吞吐率：15.67req/s] [内存消耗：1,659.00kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1525659681728',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:22:56+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525659681729
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525659681729 [运行时间：0.073347s][吞吐率：13.63req/s] [内存消耗：1,662.23kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-05-27',
+  'end' => '2018-07-08',
+  '_' => '1525659681729',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:26:00+08:00 ] 172.16.41.102 172.16.41.43 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.109930s][吞吐率：9.10req/s] [内存消耗：1,701.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '172.16.41.102',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:26:47+08:00 ] 172.16.41.102 172.16.41.43 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.080536s][吞吐率：12.42req/s] [内存消耗：1,701.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:26:50+08:00 ] 172.16.41.102 172.16.41.43 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660009784
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660009784 [运行时间：0.072077s][吞吐率：13.87req/s] [内存消耗：1,661.73kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525660009784',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:28:47+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.071263s][吞吐率：14.03req/s] [内存消耗：1,701.81kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:28:50+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660130482
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660130482 [运行时间：0.084556s][吞吐率：11.83req/s] [内存消耗：1,661.59kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525660130482',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:28:52+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.200935s][吞吐率：4.98req/s] [内存消耗：1,702.09kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:28:52+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660132514
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660132514 [运行时间：0.073243s][吞吐率：13.65req/s] [内存消耗：1,661.88kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525660132514',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:29:31+08:00 ] 172.16.41.102 172.16.41.209 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.079343s][吞吐率：12.60req/s] [内存消耗：1,701.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '172.16.41.102',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:29:31+08:00 ] 172.16.41.102 172.16.41.209 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660185535
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660185535 [运行时间：0.087095s][吞吐率：11.48req/s] [内存消耗：1,661.52kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '172.16.41.102',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525660185535',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:29:57+08:00 ] 172.16.41.102 172.16.41.209 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.081301s][吞吐率：12.30req/s] [内存消耗：1,701.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '172.16.41.102',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:29:58+08:00 ] 172.16.41.102 172.16.41.209 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660212169
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525660212169 [运行时间：0.074840s][吞吐率：13.36req/s] [内存消耗：1,661.52kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '172.16.41.102',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525660212169',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:31:52+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525660130483
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525660130483 [运行时间：0.077358s][吞吐率：12.93req/s] [内存消耗：1,662.21kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-05-27',
+  'end' => '2018-07-08',
+  '_' => '1525660130483',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:32:38+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1525660130484
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1525660130484 [运行时间：0.092908s][吞吐率：10.76req/s] [内存消耗：1,659.00kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1525660130484',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:32:46+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525660130485
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-05-27&end=2018-07-08&_=1525660130485 [运行时间：0.086429s][吞吐率：11.57req/s] [内存消耗：1,662.23kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-05-27',
+  'end' => '2018-07-08',
+  '_' => '1525660130485',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:32:47+08:00 ] 172.16.41.102 172.16.41.236 GET /pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1525660130486
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1525660130486 [运行时间：0.109658s][吞吐率：9.12req/s] [内存消耗：1,659.00kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1525660130486',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:38:53+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525659681730
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525659681730 [运行时间：0.081076s][吞吐率：12.33req/s] [内存消耗：1,661.59kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525659681730',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:38:55+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-01&end=2018-05-13&_=1525659681731
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-01&end=2018-05-13&_=1525659681731 [运行时间：0.099203s][吞吐率：10.08req/s] [内存消耗：1,657.29kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-01',
+  'end' => '2018-05-13',
+  '_' => '1525659681731',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T10:38:57+08:00 ] 172.16.41.102 172.16.41.173 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525659681732
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525659681732 [运行时间：0.087757s][吞吐率：11.40req/s] [内存消耗：1,661.59kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525659681732',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T15:27:58+08:00 ] 172.16.41.102 172.16.41.102 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.192431s][吞吐率：5.20req/s] [内存消耗：1,701.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T15:27:59+08:00 ] 172.16.41.102 172.16.41.102 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525678078480
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525678078480 [运行时间：0.130675s][吞吐率：7.65req/s] [内存消耗：1,661.55kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525678078480',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T16:17:47+08:00 ] 172.16.41.102 172.16.41.1 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.086254s][吞吐率：11.59req/s] [内存消耗：1,701.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '172.16.41.102',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T16:18:14+08:00 ] 172.16.41.102 172.16.41.1 GET /pc/pc/public/
+[ log ] 172.16.41.102/pc/pc/public/ [运行时间：0.097460s][吞吐率：10.26req/s] [内存消耗：1,701.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T16:18:15+08:00 ] 172.16.41.102 172.16.41.1 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525681095010
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525681095010 [运行时间：0.079768s][吞吐率：12.54req/s] [内存消耗：1,661.59kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.41.102',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525681095010',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-07T16:18:48+08:00 ] 172.16.41.102 172.16.41.1 GET /pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525681127994
+[ log ] 172.16.41.102/pc/pc/public/index/index/getschedule.html?start=2018-04-29&end=2018-06-10&_=1525681127994 [运行时间：0.076828s][吞吐率：13.02req/s] [内存消耗：1,661.52kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://172.16.41.102/pc/pc/public/',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'host' => '172.16.41.102',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-04-29',
+  'end' => '2018-06-10',
+  '_' => '1525681127994',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

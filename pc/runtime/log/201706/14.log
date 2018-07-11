@@ -1,0 +1,902 @@
+[ 2017-06-14T10:47:04+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/
+[ log ] 192.168.199.105/pc/pc/public/ [运行时间：0.047049s][吞吐率：21.25req/s] [内存消耗：1,477.67kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*',
+  'referer' => 'http://192.168.199.105/pc/pc/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '192.168.199.105',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:47:23+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/
+[ log ] 192.168.199.105/pc/pc/public/ [运行时间：0.038945s][吞吐率：25.68req/s] [内存消耗：1,477.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*',
+  'referer' => 'http://192.168.199.105/pc/pc/',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '192.168.199.105',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:08+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/
+[ log ] 192.168.199.105/pc/pc/public/ [运行时间：0.041576s][吞吐率：24.05req/s] [内存消耗：1,477.41kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:11+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.040746s][吞吐率：24.54req/s] [内存消耗：1,000.20kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:23+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/
+[ log ] 192.168.199.105/pc/pc/public/ [运行时间：0.042032s][吞吐率：23.79req/s] [内存消耗：1,477.55kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:23+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.032611s][吞吐率：30.66req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:24+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/index.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/index.html [运行时间：0.075460s][吞吐率：13.25req/s] [内存消耗：2,051.22kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001475s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:25+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.040198s][吞吐率：24.88req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:26+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/projects/id/1.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/projects/id/1.html [运行时间：0.083377s][吞吐率：11.99req/s] [内存消耗：2,091.95kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'projects',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->projects[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\projects.html [ array (
+  0 => 'data',
+  1 => 'data_without_categorys',
+  2 => 'project_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001525s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:26+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.086869s][吞吐率：11.51req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:48:53+08:00 ] 192.168.199.105 192.168.199.105 POST /pc/pc/public/index/task/add_task.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/add_task.html [运行时间：0.068889s][吞吐率：14.52req/s] [内存消耗：2,006.37kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'add_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.199.105',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'title' => 'pdf',
+  'project_id' => '1',
+  'index' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->add_task[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001045s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:49:01+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/projects/id/1.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/projects/id/1.html [运行时间：0.117801s][吞吐率：8.49req/s] [内存消耗：2,093.78kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'projects',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->projects[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\projects.html [ array (
+  0 => 'data',
+  1 => 'data_without_categorys',
+  2 => 'project_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001074s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:49:01+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.037397s][吞吐率：26.74req/s] [内存消耗：1,000.20kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:49:02+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/detail/id/27.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/detail/id/27.html [运行时间：0.073358s][吞吐率：13.63req/s] [内存消耗：1,555.10kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001091s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:49:03+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.033355s][吞吐率：29.98req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:50:21+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/detail/id/27.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/detail/id/27.html [运行时间：0.078246s][吞吐率：12.78req/s] [内存消耗：1,715.12kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001230s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:50:22+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.037179s][吞吐率：26.90req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:50:56+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.032732s][吞吐率：30.55req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:51:19+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/detail/id/27.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/detail/id/27.html [运行时间：0.048299s][吞吐率：20.70req/s] [内存消耗：1,715.13kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:51:19+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.031749s][吞吐率：31.50req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:51:53+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/detail/id/27.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/detail/id/27.html [运行时间：0.054658s][吞吐率：18.30req/s] [内存消耗：1,715.23kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:51:54+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.037342s][吞吐率：26.78req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T10:59:34+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/detail/id/27.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/detail/id/27.html [运行时间：0.050236s][吞吐率：19.91req/s] [内存消耗：1,716.87kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T10:59:34+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.034461s][吞吐率：29.02req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T11:00:20+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/detail/id/27.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/detail/id/27.html [运行时间：0.065794s][吞吐率：15.20req/s] [内存消耗：1,717.02kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000937s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T11:00:20+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.036417s][吞吐率：27.46req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T11:01:12+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/index/task/detail/id/27.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/detail/id/27.html [运行时间：0.043582s][吞吐率：22.95req/s] [内存消耗：1,717.09kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001126s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-06-14T11:01:12+08:00 ] 192.168.199.105 192.168.199.105 GET /pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] 192.168.199.105/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.027284s][吞吐率：36.65req/s] [内存消耗：1,000.19kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-14T11:01:14+08:00 ] 192.168.199.105 192.168.199.105 POST /pc/pc/public/index/task/save_task_detail.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/save_task_detail.html [运行时间：0.041445s][吞吐率：24.13req/s] [内存消耗：1,531.17kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'save_task_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.199.105',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/detail/id/27.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'project_id' => '1',
+  'code' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->save_task_detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001169s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[HY000]: General error: 2031 [C:\xampp\htdocs\pc\pc\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-06-14T11:01:29+08:00 ] 192.168.199.105 192.168.199.105 POST /pc/pc/public/index/task/save_task_detail.html
+[ log ] 192.168.199.105/pc/pc/public/index/task/save_task_detail.html [运行时间：0.054906s][吞吐率：18.21req/s] [内存消耗：1,531.15kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'save_task_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.199.105',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.199.105',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.199.105/pc/pc/public/index/task/detail/id/27.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'project_id' => '1',
+  'code' => '<p>1111</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->save_task_detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001059s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[HY000]: General error: 2031 [C:\xampp\htdocs\pc\pc\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------

@@ -1,0 +1,35 @@
+[ 2017-03-09T10:40:28+08:00 ] ::1 ::1 GET /pc/public/index/task/detail/id/8.html
+[ log ] localhost/pc/public/index/task/detail/id/8.html [运行时间：0.715737s][吞吐率：1.40req/s] [内存消耗：2,058.50kb] [文件加载：41]
+[ info ] [ LANG ] D:\xampp\htdocs\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3592348672',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ D:\xampp\htdocs\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125240s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------

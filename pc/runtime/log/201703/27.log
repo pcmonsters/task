@@ -1,0 +1,72 @@
+[ 2017-03-27T10:12:54+08:00 ] ::1 ::1 GET /pc/pc/public/index/task/detail/id/21.html
+[ log ] localhost/pc/pc/public/index/task/detail/id/21.html [运行时间：0.102247s][吞吐率：9.78req/s] [内存消耗：1,556.01kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490331844; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490333228',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003514s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-27T10:12:54+08:00 ] ::1 ::1 GET /pc/pc/public/index/task/detail/id/8.html
+[ log ] localhost/pc/pc/public/index/task/detail/id/8.html [运行时间：0.035985s][吞吐率：27.79req/s] [内存消耗：1,559.84kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490331844; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490333228',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->detail[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\detail.html [ array (
+  0 => 'task',
+  1 => 'task_person',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000856s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------

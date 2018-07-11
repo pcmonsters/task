@@ -1,0 +1,861 @@
+[ 2017-03-23T21:43:25+08:00 ] ::1 ::1 GET /pc/pc/public/
+[ log ] localhost/pc/pc/public/ [运行时间：0.063991s][吞吐率：15.63req/s] [内存消耗：1,623.98kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:28+08:00 ] ::1 ::1 GET /pc/pc/public/index/task/index.html
+[ log ] localhost/pc/pc/public/index/task/index.html [运行时间：0.079089s][吞吐率：12.64req/s] [内存消耗：2,199.33kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->index[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\index.html [ array (
+  0 => 'projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001235s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:31+08:00 ] ::1 ::1 GET /pc/pc/public/index/task/projects/id/1.html
+[ log ] localhost/pc/pc/public/index/task/projects/id/1.html [运行时间：0.097510s][吞吐率：10.26req/s] [内存消耗：2,253.18kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'projects',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/pc/pc/public/index/task/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->projects[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\projects.html [ array (
+  0 => 'data',
+  1 => 'data_without_categorys',
+  2 => 'project_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004146s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:35+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.045341s][吞吐率：22.06req/s] [内存消耗：1,482.12kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '210',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '20',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '21',
+      'index' => '1',
+    ),
+    2 => 
+    array (
+      'task_id' => '8',
+      'index' => '2',
+    ),
+    3 => 
+    array (
+      'task_id' => '25',
+      'index' => '3',
+    ),
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000888s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:37+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.050556s][吞吐率：19.78req/s] [内存消耗：1,484.21kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '421',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '21',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '20',
+      'index' => '1',
+    ),
+    2 => 
+    array (
+      'task_id' => '8',
+      'index' => '2',
+    ),
+    3 => 
+    array (
+      'task_id' => '25',
+      'index' => '3',
+    ),
+    4 => 
+    array (
+      'task_id' => '21',
+      'index' => '0',
+    ),
+    5 => 
+    array (
+      'task_id' => '20',
+      'index' => '1',
+    ),
+    6 => 
+    array (
+      'task_id' => '8',
+      'index' => '2',
+    ),
+    7 => 
+    array (
+      'task_id' => '25',
+      'index' => '3',
+    ),
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:40+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/add_task.html
+[ log ] localhost/pc/pc/public/index/task/add_task.html [运行时间：0.074579s][吞吐率：13.41req/s] [内存消耗：2,006.63kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'add_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'title' => '2131231231',
+  'project_id' => '1',
+  'index' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->add_task[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:42+08:00 ] ::1 ::1 GET /pc/pc/public/index/task/projects/id/1.html
+[ log ] localhost/pc/pc/public/index/task/projects/id/1.html [运行时间：0.099179s][吞吐率：10.08req/s] [内存消耗：2,092.34kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'projects',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://localhost/pc/pc/public/index/task/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->projects[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc\pc\public/../application/index\view\task\projects.html [ array (
+  0 => 'data',
+  1 => 'data_without_categorys',
+  2 => 'project_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001789s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:45+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.069021s][吞吐率：14.49req/s] [内存消耗：2,079.90kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '580',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '22',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '7',
+      'index' => '1',
+    ),
+    2 => 
+    array (
+      'task_id' => '4',
+      'index' => '2',
+    ),
+    3 => 
+    array (
+      'task_id' => '6',
+      'index' => '3',
+    ),
+    4 => 
+    array (
+      'task_id' => '21',
+      'index' => '0',
+    ),
+    5 => 
+    array (
+      'task_id' => '20',
+      'index' => '1',
+    ),
+    6 => 
+    array (
+      'task_id' => '8',
+      'index' => '2',
+    ),
+    7 => 
+    array (
+      'task_id' => '5',
+      'index' => '3',
+    ),
+    8 => 
+    array (
+      'task_id' => '25',
+      'index' => '4',
+    ),
+    9 => 
+    array (
+      'task_id' => '26',
+      'index' => '5',
+    ),
+  ),
+  'recategory' => 
+  array (
+    'task_id' => '5',
+    'category_id' => '0',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000831s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:43:58+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.069536s][吞吐率：14.38req/s] [内存消耗：2,079.90kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '580',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '21',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '20',
+      'index' => '1',
+    ),
+    2 => 
+    array (
+      'task_id' => '5',
+      'index' => '2',
+    ),
+    3 => 
+    array (
+      'task_id' => '25',
+      'index' => '3',
+    ),
+    4 => 
+    array (
+      'task_id' => '26',
+      'index' => '4',
+    ),
+    5 => 
+    array (
+      'task_id' => '22',
+      'index' => '0',
+    ),
+    6 => 
+    array (
+      'task_id' => '8',
+      'index' => '1',
+    ),
+    7 => 
+    array (
+      'task_id' => '7',
+      'index' => '2',
+    ),
+    8 => 
+    array (
+      'task_id' => '4',
+      'index' => '3',
+    ),
+    9 => 
+    array (
+      'task_id' => '6',
+      'index' => '4',
+    ),
+  ),
+  'recategory' => 
+  array (
+    'task_id' => '8',
+    'category_id' => '1',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001004s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:44:01+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.066775s][吞吐率：14.98req/s] [内存消耗：2,079.95kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '580',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '22',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '8',
+      'index' => '1',
+    ),
+    2 => 
+    array (
+      'task_id' => '4',
+      'index' => '2',
+    ),
+    3 => 
+    array (
+      'task_id' => '6',
+      'index' => '3',
+    ),
+    4 => 
+    array (
+      'task_id' => '21',
+      'index' => '0',
+    ),
+    5 => 
+    array (
+      'task_id' => '7',
+      'index' => '1',
+    ),
+    6 => 
+    array (
+      'task_id' => '20',
+      'index' => '2',
+    ),
+    7 => 
+    array (
+      'task_id' => '5',
+      'index' => '3',
+    ),
+    8 => 
+    array (
+      'task_id' => '25',
+      'index' => '4',
+    ),
+    9 => 
+    array (
+      'task_id' => '26',
+      'index' => '5',
+    ),
+  ),
+  'recategory' => 
+  array (
+    'task_id' => '7',
+    'category_id' => '0',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001052s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:44:04+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.068920s][吞吐率：14.51req/s] [内存消耗：2,078.00kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '370',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '3',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '22',
+      'index' => '0',
+    ),
+    2 => 
+    array (
+      'task_id' => '8',
+      'index' => '1',
+    ),
+    3 => 
+    array (
+      'task_id' => '4',
+      'index' => '2',
+    ),
+    4 => 
+    array (
+      'task_id' => '23',
+      'index' => '3',
+    ),
+    5 => 
+    array (
+      'task_id' => '6',
+      'index' => '4',
+    ),
+  ),
+  'recategory' => 
+  array (
+    'task_id' => '23',
+    'category_id' => '1',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:44:08+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.065365s][吞吐率：15.30req/s] [内存消耗：2,080.38kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '635',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '21',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '20',
+      'index' => '1',
+    ),
+    2 => 
+    array (
+      'task_id' => '5',
+      'index' => '2',
+    ),
+    3 => 
+    array (
+      'task_id' => '25',
+      'index' => '3',
+    ),
+    4 => 
+    array (
+      'task_id' => '26',
+      'index' => '4',
+    ),
+    5 => 
+    array (
+      'task_id' => '22',
+      'index' => '0',
+    ),
+    6 => 
+    array (
+      'task_id' => '7',
+      'index' => '1',
+    ),
+    7 => 
+    array (
+      'task_id' => '8',
+      'index' => '2',
+    ),
+    8 => 
+    array (
+      'task_id' => '4',
+      'index' => '3',
+    ),
+    9 => 
+    array (
+      'task_id' => '23',
+      'index' => '4',
+    ),
+    10 => 
+    array (
+      'task_id' => '6',
+      'index' => '5',
+    ),
+  ),
+  'recategory' => 
+  array (
+    'task_id' => '7',
+    'category_id' => '1',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-03-23T21:44:17+08:00 ] ::1 ::1 POST /pc/pc/public/index/task/reorder.html
+[ log ] localhost/pc/pc/public/index/task/reorder.html [运行时间：0.071603s][吞吐率：13.97req/s] [内存消耗：2,080.34kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'reorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '635',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/pc/pc/public/index/task/projects/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=8snon2h43u8qaj3bhfju4tbul4; Hm_lvt_89e183299f55076126198f1f546c1b7a=1488367801; Hm_lpvt_89e183299f55076126198f1f546c1b7a=1488367807; UM_distinctid=15ac5f7b1d68a-0e0de0f729c3d6-3e64430f-1fa400-15ac5f7b1d74a7; CNZZDATA1261441349=1340536119-1489374826-%7C1490241738; Hm_lvt_6681fc6da2f37578acbb0f5b2cc6f10c=1489380031; Hm_lpvt_6681fc6da2f37578acbb0f5b2cc6f10c=1490244227',
+)
+[ info ] [ PARAM ] array (
+  'data' => 
+  array (
+    0 => 
+    array (
+      'task_id' => '22',
+      'index' => '0',
+    ),
+    1 => 
+    array (
+      'task_id' => '7',
+      'index' => '1',
+    ),
+    2 => 
+    array (
+      'task_id' => '4',
+      'index' => '2',
+    ),
+    3 => 
+    array (
+      'task_id' => '23',
+      'index' => '3',
+    ),
+    4 => 
+    array (
+      'task_id' => '6',
+      'index' => '4',
+    ),
+    5 => 
+    array (
+      'task_id' => '21',
+      'index' => '0',
+    ),
+    6 => 
+    array (
+      'task_id' => '8',
+      'index' => '1',
+    ),
+    7 => 
+    array (
+      'task_id' => '20',
+      'index' => '2',
+    ),
+    8 => 
+    array (
+      'task_id' => '5',
+      'index' => '3',
+    ),
+    9 => 
+    array (
+      'task_id' => '25',
+      'index' => '4',
+    ),
+    10 => 
+    array (
+      'task_id' => '26',
+      'index' => '5',
+    ),
+  ),
+  'recategory' => 
+  array (
+    'task_id' => '8',
+    'category_id' => '0',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Task->reorder[ C:\xampp\htdocs\pc\pc\application\index\Controller\Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001081s ] mysql:dbname=blue;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
