@@ -3,6 +3,7 @@
 namespace app\index\controller;
 use think\Db;
 use \think\Request;
+use think\Loader;
 // use index\controller\Admin;
 class Index extends Admin{
     public function index(){
@@ -40,5 +41,34 @@ class Index extends Admin{
     	var_dump($sql);
     	$sql = rtrim($sql,',');
     	Db::query($sql);
+    }
+    public function getbugs(){
+        set_time_limit(0);
+        // require(EXTEND_PATH.'PHPExcel/IOFactory.php');
+        // Loader::import('PHPExcel/Autoloader.php', EXTEND_PATH);
+        // import('PHPExcel/IOFactory.php', EXTEND_PATH);
+        // Loader::import('PHPExcel', EXTEND_PATH,'.php');
+        Loader::import('PHPExcel', EXTEND_PATH);
+        $file = 'C:\xampp\htdocs\banma_doc\测试用例\进度报告\6.29-7.5\QA数据收集-研发中心-陶婉婷.xlsx';
+        $file = iconv("UTF-8" , "gb2312//IGNORE", $file);
+        $data = [];
+
+        $objReader = \PHPExcel_IOFactory::createReader('Excel2007');
+        $objReader->setReadDataOnly(true);
+        $objPHPExcel = $objReader->load($file);
+        var_dump($objPHPExcel);
+        $currentSheet = $objPHPExcel->getSheet(0);
+        $allColumn = $currentSheet->getHighestColumn();
+        $allRow = $currentSheet->getHighestRow();
+
+        var_dump($currentSheet);
+        // for ($currentRow = 1; $currentRow <= $allRow; $currentRow++) {
+        //     for ($currentColumn = 'A'; $currentColumn <= $allColumn; $currentColumn++) {
+        //         $val = $currentSheet->getCellByColumnAndRow(ord($currentColumn) - 65, $currentRow)->getValue();
+                
+        //         $data[$currentRow][$currentColumn] = $val;
+        //     }
+        // }
+        var_dump($data);
     }
 }
