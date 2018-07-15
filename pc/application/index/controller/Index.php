@@ -41,4 +41,30 @@ class Index extends Admin{
     	$sql = rtrim($sql,',');
     	Db::query($sql);
     }
+    public function bug(){
+        return $this->fetch('bug',[
+            
+        ]);
+    }
+    public function getBug(){
+        // $params = $this->params;
+        // var_dump($params);
+        $sql = "SELECT    DATE_FORMAT(bug_time, '%Y%m') months,    count(bug_count) count,bug_env FROM    task_bug WHERE  
+    bug_time <= '2018-07-01' GROUP BY    bug_env,months";
+        $result = Db::query($sql);
+        $data['categories'] = ['3月','4月','5月','6月'];
+        foreach($result as $value){
+            // $data['categories'][] = $value['months'];
+            if($value['bug_env'] == 1){
+                $data['data_dev'][] = $value['count'];
+            }elseif($value['bug_env'] == 2){
+                $data['data_all'][] = $value['count'];
+            }elseif($value['bug_env'] == 3){
+                $data['data_product'][] = $value['count'];
+            }
+        }
+        
+        // $tasks  = Db::table('qa_scedule')->alias('a')->where('b.id',$params['id'])->order('a.`index`')->field('*,a.id as task_id')->select();
+        return $data;
+    }
 }
