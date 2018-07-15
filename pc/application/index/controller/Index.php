@@ -3,6 +3,7 @@
 namespace app\index\controller;
 use think\Db;
 use \think\Request;
+use think\Loader;
 // use index\controller\Admin;
 class Index extends Admin{
     public function index(){
@@ -41,6 +42,7 @@ class Index extends Admin{
     	$sql = rtrim($sql,',');
     	Db::query($sql);
     }
+
     public function bug(){
         return $this->fetch('bug',[
             
