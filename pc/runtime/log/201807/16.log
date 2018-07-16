@@ -1,0 +1,1019 @@
+[ 2018-07-16T10:41:48+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/
+[ log ] localhost/pc_1/pc/pc/public/ [运行时间：0.151885s][吞吐率：6.58req/s] [内存消耗：1,707.33kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:41:49+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531708908957
+[ log ] localhost/pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531708908957 [运行时间：0.125765s][吞吐率：7.95req/s] [内存消耗：1,682.71kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531708908957',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-16T10:41:52+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.135872s][吞吐率：7.36req/s] [内存消耗：1,151.09kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:41:56+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/
+[ log ] localhost/pc_1/pc/pc/public/ [运行时间：0.127759s][吞吐率：7.83req/s] [内存消耗：1,707.62kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:41:56+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.100648s][吞吐率：9.94req/s] [内存消耗：1,151.06kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:41:57+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531708916822
+[ log ] localhost/pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531708916822 [运行时间：0.103166s][吞吐率：9.69req/s] [内存消耗：1,682.73kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531708916822',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-16T10:44:27+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/
+[ log ] localhost/pc_1/pc/pc/public/ [运行时间：0.161835s][吞吐率：6.18req/s] [内存消耗：1,707.62kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:44:28+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.135957s][吞吐率：7.36req/s] [内存消耗：1,151.06kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:45:24+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/
+[ log ] localhost/pc_1/pc/pc/public/ [运行时间：0.180145s][吞吐率：5.55req/s] [内存消耗：1,707.62kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:45:24+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.093883s][吞吐率：10.65req/s] [内存消耗：1,151.06kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:46:18+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/task/index.html
+[ log ] localhost/pc_1/pc/pc/public/index/task/index.html [运行时间：0.197385s][吞吐率：5.07req/s] [内存消耗：1,766.10kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Task->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\task\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: projects[C:\xampp\htdocs\pc_1\pc\pc\runtime\temp\edbcb9952ff96cabb1e618d285c1b76c.php:89]
+
+---------------------------------------------------------------
+[ 2018-07-16T10:46:35+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531709068112
+[ log ] localhost/pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531709068112 [运行时间：127.427810s][吞吐率：0.01req/s] [内存消耗：1,696.87kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531709068112',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-16T10:47:32+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531709124550
+[ log ] localhost/pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531709124550 [运行时间：127.503948s][吞吐率：0.01req/s] [内存消耗：1,696.90kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531709124550',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-16T10:49:12+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/index.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/index.html [运行时间：169.504200s][吞吐率：0.01req/s] [内存消耗：1,696.87kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-16T10:49:12+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/
+[ log ] localhost/pc_1/pc/pc/public/ [运行时间：187.043304s][吞吐率：0.01req/s] [内存消耗：1,697.27kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-16T10:49:29+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/index.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/index.html [运行时间：0.223542s][吞吐率：4.47req/s] [内存消耗：1,566.41kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:49:48+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/bug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/bug.html [运行时间：0.266436s][吞吐率：3.75req/s] [内存消耗：1,881.50kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->bug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\bug.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:49:49+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug.html [运行时间：0.233622s][吞吐率：4.28req/s] [内存消耗：1,661.23kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:54:56+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/bug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/bug.html [运行时间：0.118888s][吞吐率：8.41req/s] [内存消耗：1,886.84kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->bug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\bug.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:54:56+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug.html [运行时间：0.163127s][吞吐率：6.13req/s] [内存消耗：1,661.23kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T10:54:56+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug.html [运行时间：0.167094s][吞吐率：5.98req/s] [内存消耗：1,661.23kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:36:53+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/bug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/bug.html [运行时间：0.148902s][吞吐率：6.72req/s] [内存消耗：1,710.29kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->bug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\bug.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:36:54+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug.html [运行时间：0.236633s][吞吐率：4.23req/s] [内存消耗：1,664.20kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:36:54+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug.html [运行时间：0.259508s][吞吐率：3.85req/s] [内存消耗：1,664.20kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:36:56+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.128613s][吞吐率：7.78req/s] [内存消耗：1,151.06kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:41:37+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/bug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/bug.html [运行时间：0.111462s][吞吐率：8.97req/s] [内存消耗：1,892.05kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->bug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\bug.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:41:37+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.075380s][吞吐率：13.27req/s] [内存消耗：1,151.06kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:41:37+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug.html [运行时间：0.196967s][吞吐率：5.08req/s] [内存消耗：1,665.09kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:41:38+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug2.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug2.html [运行时间：0.227535s][吞吐率：4.39req/s] [内存消耗：1,666.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug2[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:42:28+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/bug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/bug.html [运行时间：0.126239s][吞吐率：7.92req/s] [内存消耗：1,892.04kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->bug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\bug.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:42:29+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.089517s][吞吐率：11.17req/s] [内存消耗：1,151.06kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:42:29+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug.html [运行时间：0.185801s][吞吐率：5.38req/s] [内存消耗：1,665.09kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-16T11:42:29+08:00 ] ::1 ::1 POST /pc_1/pc/pc/public/index/index/getbug2.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbug2.html [运行时间：0.195435s][吞吐率：5.12req/s] [内存消耗：1,666.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbug2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/index/index/bug.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getBug2[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

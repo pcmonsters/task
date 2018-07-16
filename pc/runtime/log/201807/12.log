@@ -1,0 +1,1060 @@
+[ 2018-07-12T11:02:34+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/
+[ log ] localhost/pc_1/pc/pc/public/ [运行时间：0.137699s][吞吐率：7.26req/s] [内存消耗：1,871.23kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-12T11:02:36+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531364555372
+[ log ] localhost/pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531364555372 [运行时间：0.206053s][吞吐率：4.85req/s] [内存消耗：1,678.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531364555372',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:02:39+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.155410s][吞吐率：6.43req/s] [内存消耗：1,151.07kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-12T11:02:42+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/
+[ log ] localhost/pc_1/pc/pc/public/ [运行时间：0.171783s][吞吐率：5.82req/s] [内存消耗：1,703.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-12T11:02:43+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/static/css/bootstrap.min.css.map
+[ log ] localhost/pc_1/pc/pc/public/static/css/bootstrap.min.css.map [运行时间：0.226176s][吞吐率：4.42req/s] [内存消耗：1,151.07kb] [文件加载：27]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-12T11:02:43+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531364563332
+[ log ] localhost/pc_1/pc/pc/public/index/index/getschedule.html?start=2018-07-01&end=2018-08-12&_=1531364563332 [运行时间：0.189738s][吞吐率：5.27req/s] [内存消耗：1,678.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getschedule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+  'start' => '2018-07-01',
+  'end' => '2018-08-12',
+  '_' => '1531364563332',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getSchedule[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[C:\xampp\htdocs\pc_1\pc\pc\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:11:44+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/task/index.html
+[ log ] localhost/pc_1/pc/pc/public/index/task/index.html [运行时间：0.338052s][吞吐率：2.96req/s] [内存消耗：1,935.90kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/pc_1/pc/pc/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\Controller\Task->index[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Task.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\pc_1\pc\pc\public/../application/index\view\task\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: projects[C:\xampp\htdocs\pc_1\pc\pc\runtime\temp\edbcb9952ff96cabb1e618d285c1b76c.php:89]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:11:52+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.285195s][吞吐率：3.51req/s] [内存消耗：1,695.43kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:48]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:12:38+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.245474s][吞吐率：4.07req/s] [内存消耗：1,695.71kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:48]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:12:41+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.210026s][吞吐率：4.76req/s] [内存消耗：1,695.71kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:48]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:21:44+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.213386s][吞吐率：4.69req/s] [内存消耗：1,695.98kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant PHPEXCEL_ROOT - assumed 'PHPEXCEL_ROOT'[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Autoloader.php:73]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:25:07+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.198828s][吞吐率：5.03req/s] [内存消耗：1,696.48kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:50]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:26:12+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.211897s][吞吐率：4.72req/s] [内存消耗：1,696.27kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Loader' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:46]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:26:13+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.263983s][吞吐率：3.79req/s] [内存消耗：1,696.27kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Loader' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:46]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:26:15+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.238574s][吞吐率：4.19req/s] [内存消耗：1,696.27kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Loader' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:46]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:27:31+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.181277s][吞吐率：5.52req/s] [内存消耗：1,695.98kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant PHPEXCEL_ROOT - assumed 'PHPEXCEL_ROOT'[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Autoloader.php:73]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:29:23+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.276719s][吞吐率：3.61req/s] [内存消耗：1,696.52kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:51]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:29:37+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.196691s][吞吐率：5.08req/s] [内存消耗：2,502.66kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Could not open C:\xampp\htdocs\banma_doc\测试用例\进度报告\6.29-7.5\QA数据收集-研发中心-陶婉婷.xlsx for reading! File does not exist.[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Reader\Excel2007.php:347]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:47:37+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.212553s][吞吐率：4.70req/s] [内存消耗：1,827.44kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: filePath[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:49]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:47:47+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.332424s][吞吐率：3.01req/s] [内存消耗：2,511.13kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel' not found[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Reader\Excel2007.php:351]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:52:51+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.262806s][吞吐率：3.81req/s] [内存消耗：1,696.85kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Loader' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:48]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:53:03+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.222206s][吞吐率：4.50req/s] [内存消耗：1,696.72kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Loader' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:48]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:57:00+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.200844s][吞吐率：4.98req/s] [内存消耗：1,697.05kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2018-07-12T11:57:09+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.203096s][吞吐率：4.92req/s] [内存消耗：1,697.13kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:06:04+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.183281s][吞吐率：5.46req/s] [内存消耗：1,697.05kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:07:53+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.155520s][吞吐率：6.43req/s] [内存消耗：1,697.03kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:07:55+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.195375s][吞吐率：5.12req/s] [内存消耗：1,697.03kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:07:56+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.227805s][吞吐率：4.39req/s] [内存消耗：1,697.03kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel_IOFactory' not found[C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:08:32+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：0.280959s][吞吐率：3.56req/s] [内存消耗：2,511.48kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPExcel' not found[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Reader\Excel2007.php:351]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:13:37+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：30.028689s][吞吐率：0.03req/s] [内存消耗：56,529.23kb] [文件加载：91]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Cell.php:750]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:14:03+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：30.054887s][吞吐率：0.03req/s] [内存消耗：58,734.62kb] [文件加载：91]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Worksheet.php:1339]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:14:41+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：30.083673s][吞吐率：0.03req/s] [内存消耗：48,547.61kb] [文件加载：91]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Reader\Abstract.php:170]
+
+---------------------------------------------------------------
+[ 2018-07-12T14:16:14+08:00 ] ::1 ::1 GET /pc_1/pc/pc/public/index/index/getbugs.html
+[ log ] localhost/pc_1/pc/pc/public/index/index/getbugs.html [运行时间：30.078278s][吞吐率：0.03req/s] [内存消耗：55,737.03kb] [文件加载：91]
+[ info ] [ LANG ] C:\xampp\htdocs\pc_1\pc\pc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getbugs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'JSESSIONID.99ad2823=node019f8oeaut3e4t1vcounu1juy7y1.node0; JSESSIONID.0172feeb=node015sn7yz7iws1v1tpb2u8y2713z1.node0; jenkins-timestamper-offset=-28800000; JSESSIONID.b10dc8e9=node01oqueurv4nii911ck27z257xc54.node0; JSESSIONID.441759b5=node013zned6ibb28q1m6i4t48jbm7s0.node0; screenResolution=1920x1080; JSESSIONID.a654d9a4=node01vzbw79hb62sd6ipszn5y59jz1.node0; pgv_pvi=249032704; pgv_si=s5884828672',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getbugs[ C:\xampp\htdocs\pc_1\pc\pc\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [8]未定义变量: options[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Settings.php:384]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\xampp\htdocs\pc_1\pc\pc\extend\PHPExcel\Reader\Excel2007.php:826]
+
+---------------------------------------------------------------

@@ -1,4 +1,4 @@
-{extend name="Index/index" /}
+{extend name="index/index" /}
 {block name="css"}
 
 <style>
@@ -7,6 +7,7 @@
 {/block}
 {block name="main"}
 <div id="bug_box" style="width: 600px;height:400px;"></div>
+<div id="bug_box_2" style="width: 600px;height:400px;"></div>
 {/block}
 {block name="js"}
 <script type="text/javascript" src="__JS__/echarts.min.js"></script>
@@ -71,6 +72,84 @@
 	            type: 'line',
 	            smooth: true,
 	            data: data.data_product
+	        }
+	        ]
+	    });
+	});
+	// 基于准备好的dom，初始化echarts实例
+    var myChart_2 = echarts.init(document.getElementById('bug_box_2'));
+
+   	myChart_2.setOption({
+	    title: {
+	        text: 'bug统计'
+	    },
+	    tooltip: {},
+	    legend: {
+	        data:['研发1组','研发2组','研发3组','研发5组','研发6组']
+	    },
+	    xAxis: {
+	    	type: 'category',
+        	boundaryGap: false,
+	        data: []
+	    },
+	    yAxis: {},
+	    series: []
+	});	
+	$.ajax({
+	    url:"{:url('Index/getBug2')}",
+	    type:'POST', //GET
+	    async:true,    //或false,是否异步
+	    data:{
+	       
+	    },	    
+	    dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+	    
+	    success:function(data,textStatus,jqXHR){
+	        // console.log(data)
+	        // console.log(textStatus)
+	        // console.log(jqXHR)
+	    }	    
+	}).done(function (data) {
+	    // 填入数据
+	    myChart_2.setOption({
+	        xAxis: {
+	            data: data.categories
+	        },
+	        series: [
+	        {
+	            // 根据名字对应到相应的系列
+	            name: '研发1组',
+	            type: 'line',
+	            smooth: true,
+	            data: data.data_group_id_1
+	        },
+	        {
+	            // 根据名字对应到相应的系列
+	            name: '研发2组',
+	            type: 'line',
+	            smooth: true,
+	            data: data.data_group_id_2
+	        },
+	        {
+	            // 根据名字对应到相应的系列
+	            name: '研发3组',
+	            type: 'line',
+	            smooth: true,
+	            data: data.data_group_id_3
+	        },
+	        {
+	            // 根据名字对应到相应的系列
+	            name: '研发5组',
+	            type: 'line',
+	            smooth: true,
+	            data: data.data_group_id_5
+	        },
+	        {
+	            // 根据名字对应到相应的系列
+	            name: '研发6组',
+	            type: 'line',
+	            smooth: true,
+	            data: data.data_group_id_6
 	        }
 	        ]
 	    });

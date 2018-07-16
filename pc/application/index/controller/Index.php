@@ -8,6 +8,7 @@ use think\Loader;
 class Index extends Admin{
     public function index(){
     	// echo '111';exit;
+
     	return $this->fetch('index',[
     		'name'=>'thinkphp'
     	]);
@@ -67,6 +68,27 @@ class Index extends Admin{
         }
         
         // $tasks  = Db::table('qa_scedule')->alias('a')->where('b.id',$params['id'])->order('a.`index`')->field('*,a.id as task_id')->select();
+        return $data;
+    }
+    public function getBug2(){
+        $sql = "SELECT    DATE_FORMAT(bug_time, '%Y%m') months,count(bug_count) count,group_id FROM    task_bug a join admin_account b on a.devs_id=b.id WHERE group_id is not null and 
+    bug_time <= '2018-07-01' GROUP BY    b.group_id,months";
+        $result = Db::query($sql);
+        $data['categories'] = ['3月','4月','5月','6月'];
+        foreach($result as $value){
+            // $data['categories'][] = $value['months'];
+            if($value['group_id'] == 1){
+                $data['data_group_id_1'][] = $value['count'];
+            }elseif($value['group_id'] == 2){
+                $data['data_group_id_2'][] = $value['count'];
+            }elseif($value['group_id'] == 3){
+                $data['data_group_id_3'][] = $value['count'];
+            }elseif($value['group_id'] == 5){
+                $data['data_group_id_5'][] = $value['count'];
+            }elseif($value['group_id'] == 6){
+                $data['data_group_id_6'][] = $value['count'];
+            }
+        }
         return $data;
     }
 }
